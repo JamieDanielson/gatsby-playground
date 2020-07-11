@@ -1,0 +1,90 @@
+:root {
+  --color-black: #151A1E;
+  --color-red: #8e1c44;
+  --color-blue: #1C448E;
+  --color-lightblue: #4E80DD;
+  --color-white: #F0EDEE;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--color-white);
+  font-family: 'Questrial', sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--color-black);
+}
+
+p {
+  margin-bottom: 1.15rem;
+  color: var(--color-black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--color-blue);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052em;
+}
+
+h2 {
+  font-size: 2.441em;
+}
+
+h3 {
+  font-size: 1.953em;
+}
+
+h4 {
+  font-size: 1.563em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+small,
+.text_small {
+  font-size: 0.8em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.page-container {
+  background: var(--color-white);
+}
