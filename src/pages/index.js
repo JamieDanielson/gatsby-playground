@@ -12,7 +12,7 @@ export default function Home() {
       <h1>Hello! I'm Jamie.</h1>
       <img
         src="https://source.unsplash.com/random/400x400"
-        alt="random image"
+        alt="random from unsplash"
       />
     </div>
   )
